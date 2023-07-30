@@ -14,14 +14,19 @@ Based on this heatmap of correlations, there is clearly a moderate correlation b
 
 Another area i took into consideration was the distribution of low fat items and regular items along with how these two factors relate to product sales. The chart below simply shows that low fat items represent the majority of items. 
 
-![Barh](product_sales_barh.png)
+![Barh](images/product_sales_barh.png)
 
-The histogram below demonstrates the relationship between low fat items, regular items, and outlet sales.
+# Predictive Models 
 
-![Hist](product_sales_hist.png)
+So far, several models have been attempted with certain models showing quite a lot of potential. In my first notebook titled "prediction_of_product_sales_j_hunter.ipynb" the two best models were the gradient boosting regressor and the neural network. The gradient boosting regressor has comparatively low root mean squared error and a reasonably high R^2 score of 60%. This model with some refinement is looking rather promising. 
 
-despite low fat items reprenting the majority of items, regular items seem to correlate with increased outlet sales based on the above chart.
+In my notebook titled "Project 1 - Revisited.ipynb", I went about searching for the best features worth focussing in on. Out of both models attempted in this particular notebook, I chose the random forest model due to its high training accuracy compared to the other model that I tried, which was a linear regressor. The random forest model allowed me to discover the coefficients worth focussing in on, as can be seen in the figure below.
 
-# Predictive Model 
+![Importance](images/rf_importance.png)
 
-Regarding predictive modelling, for the time being I have come to the conclusion that a linear regression would be best. IT should be noted that this model has fairly high bias, meaning that it seems to underfit the actual given data somewhat. The testing data was accurate within about 56% of the actual data, which is not optimal. I believe future research may be required in order to find a model even better than the linear regression.
+Here we see the five most important features. 
+* Item Price
+* Grocery store
+* Visibility
+* Weight
+* Type 3 Supermarket
