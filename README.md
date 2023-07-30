@@ -8,7 +8,7 @@ The purpose here is to analyze the factors which contribute to increases or decr
 
 Below is a table of correlations in the data set shown by a heatmap. It is worth noting that this is only a correlation of numerical data types. There is no catagorical data shown.
 
-![Correlation](product_sales_corr.png)
+![Correlation](images/product_sales_corr.png)
 
 Based on this heatmap of correlations, there is clearly a moderate correlation between maximum retain price (Item_MRP) and sales (Item_Outlet_Sales), which makes perfect sense.
 
