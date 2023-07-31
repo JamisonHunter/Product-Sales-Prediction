@@ -1,4 +1,4 @@
-# Product-Sales-Prediction
+# Product Sales Prediction
 
 Hello and welcome to my analysis of the product sales from sales_predictions.csv.
 
@@ -30,3 +30,17 @@ Here we see the five most important features.
 * Visibility
 * Weight
 * Type 3 Supermarket
+
+# SHAP Explanations
+
+In order to better construct an idea of exactly how the top features are affecting the target, I used the SHAP library in order to create a couple of helpful visualizations. Below can be seen a graph of the top features according to this SHAP framework.
+
+![SHAP](images/shap_bar.png)
+
+We can see that there are similarities with the graph above this one. Both ways of identifying key features agree that item MSRP and the outlet type being a grocery store are vitally important when it comes to predicting product sales. Other importances do vary but are still relevant according to both methods of observing the feature data.
+
+Below we can get a sense of exactly how each feature alter's the model's predictions. Item MSRP has a profound impact on product sales, which is a fairly obvious observation. Though, the more specific interpretation is that a lower price will generally lead to a higher number of sales. We can also see that if the outlet is a grocery store, there will be a significant decrease in product sales. If the outlet is a type 3 supermarket; however, there will be a marked increase in product sales. The relationship between outlet type and product sales can also be seen in the next figure below the SHAP feature data.
+
+![SHAP](images/shap_dot.png)
+
+![Correlation](images/sales_by_outlet_type.png)
