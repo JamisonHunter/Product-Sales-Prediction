@@ -25,7 +25,7 @@ Based on this heatmap of correlations, there are two features which have a posit
 * Item Maximum Retail Price
 * Item Visibility
 
-# Predictive Models 
+# Machine Learning Models 
 
 So far, several models have been attempted with certain models showing quite a lot of potential. In my first notebook titled "prediction_of_product_sales_j_hunter.ipynb" the two best models were the gradient boosting regressor and the neural network. The gradient boosting regressor has comparatively low root mean squared error and a reasonably high R^2 score of 60%. This model with some refinement is looking rather promising. 
 
@@ -40,7 +40,7 @@ Here we see the five most important features.
 * Weight
 * Type 3 Supermarket
 
-# SHAP Explanations
+# Deeper Analysis & Findings 
 
 In order to better construct an idea of exactly how the top features are affecting the target, I used the SHAP library in order to create a couple of helpful visualizations. Below can be seen a graph of the top features according to this SHAP framework.
 
@@ -53,3 +53,7 @@ Below we can get a sense of exactly how each feature alter's the model's predict
 ![SHAP](images/shap_dot.png)
 
 ![Correlation](images/sales_by_outlet_type.png)
+
+# Recommendations
+
+# Conclusion
