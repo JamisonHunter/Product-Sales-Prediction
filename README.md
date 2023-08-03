@@ -4,17 +4,17 @@ Hello and welcome to my analysis of the product sales from sales_predictions.csv
 
 The purpose here is to analyze the factors which contribute to increases or decreases in product sales. Based on this information, I will recommend a predictive model in order to potentially make future observations regarding product sales. To start, I would like to go through a few observations concerning this data set.
 
-# Data
+# Initial Data Findings
 
-Below is a table of correlations in the data set shown by a heatmap. It is worth noting that this is only a correlation of numerical data types. There is no catagorical data shown.
+What was I able to find with a cursory glance at the data, so to speak?
+
+Below are just a few of the correlations that I could find in the data relating to product sales. 
 
 ![Correlation](images/product_sales_corr.png)
 
-Based on this heatmap of correlations, there is clearly a moderate correlation between maximum retain price (Item_MRP) and sales (Item_Outlet_Sales), which makes perfect sense.
-
-Another area i took into consideration was the distribution of low fat items and regular items along with how these two factors relate to product sales. The chart below simply shows that low fat items represent the majority of items. 
-
-![Barh](images/product_sales_barh.png)
+Based on this heatmap of correlations, there are two features which have a positive relationship with sales. 
+* Item Maximum Retail Price
+* Item Visibility
 
 # Predictive Models 
 
