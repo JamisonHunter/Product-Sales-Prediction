@@ -1,10 +1,19 @@
 # Product Sales Prediction
 
-Hello and welcome to my analysis of the product sales from sales_predictions.csv.
+Hello and welcome to my analysis and prediction of product sales!
 
-The purpose here is to analyze the factors which contribute to increases or decreases in product sales. Based on this information, I will recommend a predictive model in order to potentially make future observations regarding product sales. To start, I would like to go through a few observations concerning this data set.
+The data used for this analysis originated from Kaggle and can be found here at sales_prediction.csv in this repository. 
 
-# Initial Data Findings
+What am I going to do with this data?
+
+Here are the steps I will use in order to analyze this sales data and make meaningful predictions.
+* Initial Analysis & Findings
+* Machine Learning Models
+* Deep Analysis & Findings
+* Data Driven Recommendations
+* Conclusion
+
+# Initial Analysis & Findings
 
 What was I able to find with a cursory glance at the data, so to speak?
 
