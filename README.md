@@ -34,6 +34,17 @@ What does the above graph mean? We can see that grocery stores seem to have both
 
 So far, several models have been attempted with certain models showing quite a lot of potential. In my first notebook titled "prediction_of_product_sales_j_hunter.ipynb" the two best models were the gradient boosting regressor and the neural network. The gradient boosting regressor has comparatively low root mean squared error and a reasonably high R^2 score of 60%. This model with some refinement is looking rather promising. 
 
+The coefficients of my linear regression model are shown below.
+
+![Importance](images/linreg_coef.png)
+
+The most important coefficients are as follows. How these were gathered can be found within "Project 1 - Revisited.ipynb" within this repository.
+* Type 3 Supermarket
+* High Outlet Size
+* Outlet Location Type Tier 1
+* Seafood Item
+* Breakfast Item
+
 In my notebook titled "Project 1 - Revisited.ipynb", I went about searching for the best features worth focussing in on. Out of both models attempted in this particular notebook, I chose the random forest model due to its high training R^2 score compared to the other model that I tried, which was a linear regressor. The random forest model allowed me to discover the coefficients worth focussing in on, as can be seen in the figure below.
 
 ![Importance](images/rf_importance.png)
