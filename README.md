@@ -76,14 +76,14 @@ The figure directly above shows specifically just how important outlet type is t
 
 # Row With Maximum Sales
 
-![SHAP](images/max_outlet_sales_force.png)
+![SHAP](images/max_outlet_sales_force - Copy.png)
 ![SHAP](images/max_outlet_sales_lime.png)
 
 We can see that the row with maximum outlet sales is affected by the outlet not being a grocery store primarily. It also has a high maximum retail price and a high visibility. This means that the item is large and expensive. We can also see that the item is from a type 3 supermarket, which makes sense based on what has been shown in the previous sections.
 
 # Row With Minimum Sales
 
-![SHAP](images/min_outlet_sales_force.png)
+![SHAP](images/min_outlet_sales_force - Copy.png)
 ![SHAP](images/min_outlet_sales_lime.png)
 
 What we have above is the row with minimal product sales. This row comes from a grocery store and is affected specifically by not being from a type 3 supermarket. The item maximum retail price is also quite low.
