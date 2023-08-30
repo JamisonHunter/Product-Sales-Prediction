@@ -38,12 +38,12 @@ The coefficients of my linear regression model are shown below.
 
 ![Importance](images/linreg_coefs.png)
 
-The most important coefficients are as follows. How these were gathered can be found within "Project 1 - Revisited.ipynb" within this repository.
+The most important coefficients are as follows. How these were gathered can be found within "Project 1 - Revisited.ipynb" within this repository. These are based on the absolute values of the coefficients.
 * Type 3 Supermarket
+* Grocery Store Outlet Type
 * High Outlet Size
-* Outlet Location Type Tier 1
-* Seafood Item
-* Breakfast Item
+* Type 2 Supermarket
+* Medium Outlet Size
 
 In my notebook titled "Project 1 - Revisited.ipynb", I went about searching for the best features worth focussing in on. Out of both models attempted in this particular notebook, I chose the random forest model due to its high training R^2 score compared to the other model that I tried, which was a linear regressor. The random forest model allowed me to discover the coefficients worth focussing in on, as can be seen in the figure below.
 
