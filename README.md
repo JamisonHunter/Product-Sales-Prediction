@@ -36,7 +36,7 @@ So far, several models have been attempted with certain models showing quite a l
 
 The coefficients of my linear regression model are shown below.
 
-![Importance](images/linreg_coef.png)
+![Importance](images/linreg_coefs.png)
 
 The most important coefficients are as follows. How these were gathered can be found within "Project 1 - Revisited.ipynb" within this repository.
 * Type 3 Supermarket
