@@ -83,7 +83,7 @@ We can see that the row with maximum outlet sales is affected by the outlet not 
 
 # Row With Minimum Sales
 
-![SHAP](images/min_outlet_sales_force_mat.png)
+![SHAP](images/max_item_mrp_force_mat.png)
 ![SHAP](images/min_outlet_sales_lime.png)
 
 What we have above is the row with minimal product sales. This row comes from a grocery store and is affected specifically by not being from a type 3 supermarket. The item maximum retail price is also quite low.
